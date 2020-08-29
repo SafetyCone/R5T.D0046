@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.Polidea\source\R5T.Polidea.Standard\R5T.Polidea.Standard.csproj" />
+    <ProjectReference Include="..\R5T.D0046.Default\R5T.D0046.Default.csproj" />
+  </ItemGroup>
+
+</Project>

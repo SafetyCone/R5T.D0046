@@ -1,0 +1,4 @@
+R5T.D0046.Default - Default implementations library for the IGitAuthenticationProvider service.
+
+Goals
+
