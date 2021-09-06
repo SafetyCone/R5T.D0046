@@ -1,4 +1,0 @@
-R5T.D0046.Standard - Standard aggregation library for the IGitAuthenticationProvider service.
-
-Goals
-
