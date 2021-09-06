@@ -13,7 +13,7 @@ namespace R5T.D0046.A001
 {
     public static class IServiceCollectionExtension
     {
-        public static ServicesAggregation AddGitAuthenticationProviderServices(this IServiceCollection services,
+        public static ServiceAggregation AddGitAuthenticationProviderActions(this IServiceCollection services,
             IServiceAction<ISecretsDirectoryFilePathProvider> secretsDirectoryFilePathProviderAction)
         {
             var gitHubAuthenticationProviderAction = services.AddGitHubAuthenticationProviderAction(
@@ -22,7 +22,7 @@ namespace R5T.D0046.A001
             var gitAuthenticationProviderAction = services.AddGitAuthenticationProviderAction(
                 gitHubAuthenticationProviderAction);
 
-            return new ServicesAggregation
+            return new ServiceAggregation
             {
                 GitAuthenticationProviderAction = gitAuthenticationProviderAction,
                 GitHubAuthenticationProviderAction = gitHubAuthenticationProviderAction,
