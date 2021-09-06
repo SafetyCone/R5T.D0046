@@ -12,6 +12,7 @@ namespace System
             where T : IServicesAggregation
         {
             aggregation.GitAuthenticationProviderAction = other.GitAuthenticationProviderAction;
+            aggregation.GitHubAuthenticationProviderAction = other.GitHubAuthenticationProviderAction;
 
             return aggregation;
         }

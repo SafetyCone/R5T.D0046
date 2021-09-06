@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\R5T.Aalborg\source\R5T.Aalborg\R5T.Aalborg.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Dacia\source\R5T.Dacia.T002\R5T.Dacia.T002.csproj" />
   </ItemGroup>
 
 </Project>
