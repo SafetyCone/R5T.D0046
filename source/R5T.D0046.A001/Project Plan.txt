@@ -1,0 +1,4 @@
+R5T.D0046.A001 - Aggregation library for the IGitAuthenticationProvider service requiring R5T.Suebia.ISecretsDirectoryFilePathProvider as a dependency.
+
+Goals
+
