@@ -1,0 +1,3 @@
+R5T.D0046.I001 - Default implementation for IGitAuthorProvider based on an ISecretsDirectoryFilePathProvider service dependency.
+
+GOALS:

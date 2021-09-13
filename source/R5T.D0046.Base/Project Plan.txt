@@ -1,4 +1,4 @@
-R5T.D0046.Base - Base definitions library for the IGitAuthenticationProvider service.
+R5T.D0046.Base - Base definitions library for Git-supporting services (IGitAuthenticationProvider, IGitAuthorProvider).
 
 Goals
 
