@@ -5,6 +5,7 @@
     <ProjectReference Include="..\..\..\R5T.Newport\source\R5T.Newport.Extensions\R5T.Newport.Extensions.csproj" />
     <ProjectReference Include="..\..\..\R5T.Suebia\source\R5T.Suebia.Base\R5T.Suebia.Base.csproj" />
     <ProjectReference Include="..\..\..\R5T.T0021\source\R5T.T0021\R5T.T0021.csproj" />
+    <ProjectReference Include="..\..\..\R5T.T0062\source\R5T.T0062.X001\R5T.T0062.X001.csproj" />
     <ProjectReference Include="..\R5T.D0046.Base\R5T.D0046.Base.csproj" />
   </ItemGroup>
 

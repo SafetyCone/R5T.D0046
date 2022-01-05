@@ -2,8 +2,9 @@
 
 using Microsoft.Extensions.DependencyInjection;
 
+using R5T.Dacia;
+
 using R5T.D0082.D001;
-using R5T.T0063;
 
 
 namespace R5T.D0046.Default
@@ -22,6 +23,18 @@ namespace R5T.D0046.Default
                 ;
 
             return services;
+        }
+
+        /// <summary>
+        /// Adds the <see cref="GitAuthenticationProvider"/> implementation of <see cref="IGitAuthenticationProvider"/> as a <see cref="ServiceLifetime.Singleton"/>.
+        /// </summary>
+        public static IServiceAction<IGitAuthenticationProvider> AddGitAuthenticationProviderAction(this IServiceCollection services,
+            IServiceAction<IGitHubAuthenticationProvider> gitHubAuthenticationProviderAction)
+        {
+            var serviceAction = ServiceAction.New<IGitAuthenticationProvider>(() => services.AddGitAuthenticationProvider(
+                gitHubAuthenticationProviderAction));
+
+            return serviceAction;
         }
     }
 }
